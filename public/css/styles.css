@@ -1,0 +1,93 @@
+/**
+ * styles.css
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+.container
+{
+    /* center contents */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#middle .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+#middle {
+    min-height: 350px;
+}
+#bottom
+{
+    /* shrink bottom's font size */
+    font-size: smaller;
+
+    /* surround with whitespace */
+    margin: 0px;
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 44px;
+}
+/* Tablas */
+.derecha {
+    text-align: right;
+}
+.izquierda {
+    text-align: left;
+}
+.centro {
+    text-align: center;
+}
+/* Enlaces */
+a {
+    color: #ff7b29;
+    text-decoration: none !important;
+}
+a:hover {
+    color: #2db34a !important;
+}
+/* Footer */
+#footer-principal {
+    padding: 22px 15px 22px 15px;
+    text-align: left;
+    margin: 80px 0px 0px 0px !important;
+    border-radius: 5px;
+    background: #2db34a;
+    color: #fff;
+}
+#footer-principal a {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #ff7b29;
+    text-shadow: rgb(255, 255, 255) 1px 1px 5px;
+}
+#footer-principal a:hover {
+    color: #f11 !important;
+}
+/* Instrucciones */
+.instrucciones {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  margin: 54px 0 14px 0;
+  padding: 5px 8px;
+}
+.instrucciones p,
+.instrucciones ul {
+    text-align: left;
+}
+.instrucciones th {
+    text-align: center;
+}
