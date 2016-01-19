@@ -76,6 +76,14 @@ a:hover {
 #footer-principal a:hover {
     color: #f11 !important;
 }
+#footer-principal p {
+    text-align: left;
+    font-weight: 400;
+}
+#footer-principal span {
+    float: right;
+    font-weight: 300;
+}
 /* Instrucciones */
 .instrucciones {
   border: 1px solid #c6c9cc;
